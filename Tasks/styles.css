@@ -1,0 +1,17 @@
+#tractor {
+    color: yellow;
+    background: gray;
+    font-size: 40px; 
+
+    width: 200px;
+    height: 200px;
+}
+
+#field {
+    color: orange;
+    background: black;
+    font-size: 40px;
+
+    width: 200px;
+    height: 200px;
+}
