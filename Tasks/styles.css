@@ -3,34 +3,98 @@
 } */
 
 #tractor {
-	color: yellow;
-	font-size: 40px; 
-
-
 	border: 1px solid red;
 	width: 300px;
-	height: 200px;
+	height: 300px;
 	position: absolute;
+	right: 40%;
+	bottom: 27%;
 }
 
 #tractor_body {
-	width: 250px;
-	height: 100px;
+	width:85%;
+	height: 31%;
 	background: green;
+	top: 40%;
+	left: 5%;
+	/* top: 50px; */
+	border-radius: 15%;
 
-	margin-top: 50px;
-
-	z-index: 1;
 	position: absolute;
 }
 
-#wheel {
-	height: 70px;
-	width: 70px;
-
-	
-	bottom: 0;
+#one_wheel {
+	height: 30%;
+	width: 30%;
+	left: 3%;
+	top: 64%;
+	right: 11%;
 
 	background: black;
+	position: absolute;
+	border-radius: 50%;
+}
+
+#two_wheel {
+	height: 30%;
+	width: 30%;
+
+	top: 64%;
+	right: 8%;
+	background: black;
+	position: absolute;
+	border-radius: 50%;
+}
+
+#one_yellow_wheel {
+	height: 15%;
+	width: 15%;
+	bottom: 14%;
+	left: 10%;
+
+	background: yellow;
+	position: absolute;
+	border-radius: 50%;
+}
+#two_yellow_wheel {
+	height: 15%;
+	width: 15%;
+	right: 15%;
+	top: 71%; 
+
+	background: yellow;
+	position: absolute;
+	border-radius: 50%;
+}
+
+#cabin {
+	height: 34%;
+	width: 50%;
+	
+	position: absolute;
+	background: green;
+	right: 15%;
+	top: 7%;
+}
+
+#roof {
+	height: 6%;
+	width: 59%;
+	right: 13%;
+	top: 3%;
+
+	border-radius: 15%;
+	background: black;
+	position: absolute;
+}
+
+#field {
+	height: 30%;
+	width: 100%;
+	top: 70%;
+	/* bottom: 40%; */
+	right: 0%;
+
+	background: yellow;
 	position: absolute;
 }
