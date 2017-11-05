@@ -23,10 +23,12 @@ body {
 
 #Red {
   color: red;
+  border: 5px inset green;
 }
 
 b {
-  font-size: 30px
+  font-size: 30px;
+  color: black
 }
 /* p {
   font-family: Verdana;
